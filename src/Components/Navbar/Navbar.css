@@ -1,0 +1,15 @@
+.small_nav ul li a{
+    animation: infinite light;
+    animation-duration: 2s linner;
+}
+@keyframes light {
+    0%{
+        color: red;
+    }
+    50%{
+        color: #72BF78;
+    }
+    100%{
+        color: #AD49E1;
+    }
+}
